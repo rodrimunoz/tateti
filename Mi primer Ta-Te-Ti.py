@@ -42,7 +42,7 @@ def jugada (figura):
         else:
             contador = contador + 1
     if flag == False:
-        print("La casilla ya está ocupada, elejí otra: ")
+        print("La casilla ya está ocupada, elegí otra: ")
         jugada (figura)
 
 def hubo_ganador (figura):
